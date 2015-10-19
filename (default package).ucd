@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="(default package)" size="723,348" id="" metadata="uml2-1.0" initialized="true" scrolledY="-5" tag="10" key="32303037303533312D3130204C616E64696E672053797374656D">
+  <children xsi:type="editmodel:PackageEditModel" name="appli" location="60,0" size="128,142" id="appli">
+    <children xsi:type="editmodel:ClassEditModel" name="Launch" location="41,45" size="89,85" id="appli/Launch" runTimeClassModel="main([Ljava.lang.String;),Launch()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="66,36">
+        <children xsi:type="editmodel:MethodEditModel" name="Launch" id="appli/Launch#Launch()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="main" id="appli/Launch#main([Ljava.lang.String;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="appli.Component" location="283,0" size="693,522" id="appli.Component">
+    <children xsi:type="editmodel:ClassEditModel" name="Gear" location="16,48" size="150,301" id="appli.Component/Gear" runTimeClassModel="gearUp,theta,drawGear(Ljava.awt.Graphics2D;Ljava.awt.Color;IIII),timer,getObservers(),notifyAllObservers(),getGearUp(),gearDown,getGearIsMoving(),attach(Lappli.Observer.Observer;),setObservers(Ljava.util.List;),Gear(Lappli.Component.Plane;),getGearDown(),gearIsMoving">
+      <children xsi:type="editmodel:CompartmentEditModel" size="127,90">
+        <children xsi:type="editmodel:AttributeEditModel" name="gearDown" id="appli.Component/Gear#gearDown"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="gearIsMoving" id="appli.Component/Gear#gearIsMoving"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="gearUp" id="appli.Component/Gear#gearUp"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="theta" id="appli.Component/Gear#theta"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="timer" id="appli.Component/Gear#timer"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="121,162">
+        <children xsi:type="editmodel:MethodEditModel" name="attach" id="appli.Component/Gear#attach(Lappli.Observer.Observer;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getGearDown" id="appli.Component/Gear#getGearDown()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getGearIsMoving" location="12,159" id="appli.Component/Gear#getGearIsMoving()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getGearUp" id="appli.Component/Gear#getGearUp()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="notifyAllObservers" location="28,247" id="appli.Component/Gear#notifyAllObservers()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="Gear" id="appli.Component/Gear#Gear(Lappli.Component.Plane;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="drawGear" id="appli.Component/Gear#drawGear(Ljava.awt.Graphics2D;Ljava.awt.Color;IIII)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getObservers" id="appli.Component/Gear#getObservers()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setObservers" id="appli.Component/Gear#setObservers(Ljava.util.List;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Handle" location="192,51" size="155,308" id="appli.Component/Handle" runTimeClassModel="paintComponent(Ljava.awt.Graphics;),Handle(),handleUp,getObservers(),notifyAllObservers(),getHandleUp(),attach(Lappli.Observer.Observer;),down,setObservers(Ljava.util.List;),appli.Component.Handle.Action,top">
+      <children xsi:type="editmodel:CompartmentEditModel" size="108,54">
+        <children xsi:type="editmodel:AttributeEditModel" name="handleUp" id="appli.Component/Handle#handleUp"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="down" id="appli.Component/Handle#down"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="top" id="appli.Component/Handle#top"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="121,126">
+        <children xsi:type="editmodel:MethodEditModel" name="getHandleUp" id="appli.Component/Handle#getHandleUp()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="paintComponent" id="appli.Component/Handle#paintComponent(Ljava.awt.Graphics;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="notifyAllObservers" id="appli.Component/Handle#notifyAllObservers()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="attach" id="appli.Component/Handle#attach(Lappli.Observer.Observer;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="Handle" id="appli.Component/Handle#Handle()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getObservers" id="appli.Component/Handle#getObservers()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setObservers" id="appli.Component/Handle#setObservers(Ljava.util.List;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="132,69">
+        <children xsi:type="editmodel:ClassEditModel" name="Action" size="132,67" id="appli.Component/Handle$Action" runTimeClassModel="actionPerformed(Ljava.awt.event.ActionEvent;)">
+          <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+          <children xsi:type="editmodel:CompartmentEditModel" size="109,18">
+            <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="appli.Component/Handle$Action#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+          </children>
+          <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+          <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+        </children>
+      </children>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="SystemControl" location="365,54" size="143,193" id="appli.Component/SystemControl" runTimeClassModel="greenLight,getGreenLight(),getOrangeLight(),SystemControl(),paintComponent(Ljava.awt.Graphics;),redLight,orangeLight,getRedLight()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="120,54">
+        <children xsi:type="editmodel:AttributeEditModel" name="greenLight" id="appli.Component/SystemControl#greenLight"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="orangeLight" id="appli.Component/SystemControl#orangeLight"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="redLight" id="appli.Component/SystemControl#redLight"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="107,90">
+        <children xsi:type="editmodel:MethodEditModel" name="SystemControl" id="appli.Component/SystemControl#SystemControl()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getGreenLight" id="appli.Component/SystemControl#getGreenLight()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getOrangeLight" id="appli.Component/SystemControl#getOrangeLight()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getRedLight" id="appli.Component/SystemControl#getRedLight()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="paintComponent" id="appli.Component/SystemControl#paintComponent(Ljava.awt.Graphics;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Door" location="549,54" size="173,373" id="appli.Component/Door" runTimeClassModel="theta,getMoving(),getOpened(),moving,setClosed(Z),setOpened(Z),observers,getClosed(),timer,getObservers(),notifyAllObservers(),Door(Lappli.Component.Plane;),closed,setMoving(Z),attach(Lappli.Observer.Observer;),setObservers(Ljava.util.List;),drawDoor(Ljava.awt.Graphics2D;Ljava.awt.Color;IIII),opened">
+      <children xsi:type="editmodel:CompartmentEditModel" size="150,108">
+        <children xsi:type="editmodel:AttributeEditModel" name="closed" id="appli.Component/Door#closed"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="moving" id="appli.Component/Door#moving"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="opened" id="appli.Component/Door#opened"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="theta" id="appli.Component/Door#theta"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="timer" id="appli.Component/Door#timer"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="observers" id="appli.Component/Door#observers"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="121,216">
+        <children xsi:type="editmodel:MethodEditModel" name="Door" id="appli.Component/Door#Door(Lappli.Component.Plane;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="attach" id="appli.Component/Door#attach(Lappli.Observer.Observer;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="drawDoor" id="appli.Component/Door#drawDoor(Ljava.awt.Graphics2D;Ljava.awt.Color;IIII)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getClosed" id="appli.Component/Door#getClosed()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getMoving" id="appli.Component/Door#getMoving()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getOpened" id="appli.Component/Door#getOpened()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="notifyAllObservers" id="appli.Component/Door#notifyAllObservers()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setClosed" id="appli.Component/Door#setClosed(Z)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setMoving" id="appli.Component/Door#setMoving(Z)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setOpened" id="appli.Component/Door#setOpened(Z)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setObservers" id="appli.Component/Door#setObservers(Ljava.util.List;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getObservers" id="appli.Component/Door#getObservers()"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Plane" location="19,344" size="130,193" id="appli.Component/Plane" runTimeClassModel="leftDoor,centralGear,paintComponent(Ljava.awt.Graphics;),rightDoor,centralDoor,leftGear,rightGear,Plane()">
+      <children xsi:type="editmodel:CompartmentEditModel" size="106,108">
+        <children xsi:type="editmodel:AttributeEditModel" name="centralDoor" id="appli.Component/Plane#centralDoor"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="centralGear" id="appli.Component/Plane#centralGear"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="leftDoor" id="appli.Component/Plane#leftDoor"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="leftGear" id="appli.Component/Plane#leftGear"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="rightDoor" id="appli.Component/Plane#rightDoor"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="rightGear" id="appli.Component/Plane#rightGear"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="107,36">
+        <children xsi:type="editmodel:MethodEditModel" name="Plane" id="appli.Component/Plane#Plane()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="paintComponent" id="appli.Component/Plane#paintComponent(Ljava.awt.Graphics;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="appli.Observer" location="67,195" size="214,414" id="appli.Observer">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@children.1/@sourceConnections.0" name="Observer" location="8,34" size="156,175" id="appli.Observer/Observer" runTimeClassModel="setTheHandle(Lappli.Component.Handle;),getTheSystemControl(),update(),setThePlane(Lappli.Component.Plane;),getTheHandle(),getThePlane(),setTheSystemControl(Lappli.Component.SystemControl;)">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="133,126">
+        <children xsi:type="editmodel:MethodEditModel" name="update" id="appli.Observer/Observer#update()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getTheSystemControl" id="appli.Observer/Observer#getTheSystemControl()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setTheHandle" id="appli.Observer/Observer#setTheHandle(Lappli.Component.Handle;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getThePlane" id="appli.Observer/Observer#getThePlane()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="getTheHandle" id="appli.Observer/Observer#getTheHandle()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setThePlane" id="appli.Observer/Observer#setThePlane(Lappli.Component.Plane;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setTheSystemControl" id="appli.Observer/Observer#setTheSystemControl(Lappli.Component.SystemControl;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="CentralObserver" location="35,147" size="167,211" id="appli.Observer/CentralObserver" runTimeClassModel="setRetractingGearTimer(Lappli.Component.Gear;),setAction(Lappli.Component.Gear;Lappli.Component.Door;),setOpeningDoorTimer(Lappli.Component.Door;Lappli.Component.Gear;),checkFailure(Lappli.Component.Door;Lappli.Component.Gear;),CentralObserver(Lappli.Component.Plane;Lappli.Component.Handle;Lappli.Component.SystemControl;),checkMoving(Lappli.Component.Door;Lappli.Component.Gear;),setExtendingGearTimer(Lappli.Component.Gear;),update(),setClosingDoorTimer(Lappli.Component.Door;Lappli.Component.Gear;)">
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <children xsi:type="editmodel:CompartmentEditModel" size="144,162">
+        <children xsi:type="editmodel:MethodEditModel" name="update" id="appli.Observer/CentralObserver#update()"/>
+        <children xsi:type="editmodel:MethodEditModel" name="checkMoving" id="appli.Observer/CentralObserver#checkMoving(Lappli.Component.Door;Lappli.Component.Gear;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setRetractingGearTimer" id="appli.Observer/CentralObserver#setRetractingGearTimer(Lappli.Component.Gear;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="checkFailure" id="appli.Observer/CentralObserver#checkFailure(Lappli.Component.Door;Lappli.Component.Gear;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="CentralObserver" id="appli.Observer/CentralObserver#CentralObserver(Lappli.Component.Plane;Lappli.Component.Handle;Lappli.Component.SystemControl;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setClosingDoorTimer" id="appli.Observer/CentralObserver#setClosingDoorTimer(Lappli.Component.Door;Lappli.Component.Gear;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setExtendingGearTimer" id="appli.Observer/CentralObserver#setExtendingGearTimer(Lappli.Component.Gear;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setOpeningDoorTimer" id="appli.Observer/CentralObserver#setOpeningDoorTimer(Lappli.Component.Door;Lappli.Component.Gear;)"/>
+        <children xsi:type="editmodel:MethodEditModel" name="setAction" id="appli.Observer/CentralObserver#setAction(Lappli.Component.Gear;Lappli.Component.Door;)"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="appli.Observer/Observer&lt;-appli.Observer/CentralObserver" source="//@children.2/@children.1" target="//@children.2/@children.0" targetEnd="//@children.2/@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="1,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="1,0"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+    </children>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
